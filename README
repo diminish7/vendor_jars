@@ -1,1 +1,8 @@
 A plugin for auto-loading jars in a JRuby on Rails application
+
+= Installation
+script/plugin install git://github.com/diminish7/vendor_jars.git
+
+= Usage
+On installation, a vendor/jars folder will be created.
+Just toss jars that you want to access in your app in that folder and they will be loaded at runtime.
